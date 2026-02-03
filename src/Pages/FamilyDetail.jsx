@@ -9,7 +9,8 @@ export default function FamilyDetail() {
   const navigate = useNavigate();
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const member = peopleData.find((p) => p.id == id);
+  const member = peopleData.find((p) => p.id === Number(id));
+
   if (!member) return <h2>Member Not Found</h2>;
 
   return (
