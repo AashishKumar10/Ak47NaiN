@@ -1,0 +1,338 @@
+.footer {
+  background: #eae2df;
+  color: #fff;
+  border: 10px solid #442222;
+  padding: 50px 80px 50px;
+  margin: 25px 80px 25px 80px;
+  border-radius: 25px;
+
+}
+
+.footer-title {
+  text-align: left;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  font-family: "Saira", sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-image img {
+  max-width: 420px;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  width: 375px;
+  height: 333px;
+  object-fit: cover;
+}
+
+.footer-form {
+  border: 1px solid #402222;
+  padding: 25px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 375px;
+}
+
+.footer-form input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #eae2df;
+  color: rgb(64, 34, 34);
+  outline: none;
+}
+
+.footer-form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  background-color: #eae2df;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.footer-form textarea {
+  height: 90px;
+  resize: none;
+}
+
+.footer-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(64, 34, 34);
+  font-family: "Saira", sans-serif;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.footer-form button:hover {
+  background-color: #240606;
+  color: #ffffff;
+}
+
+.footer-line {
+  margin: 50px 0 30px;
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-bott {
+  background-color: #442222;
+  padding: 25px 80px 7px 80px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 220px;
+  height: 75px;
+}
+
+.foott {
+  font-size: 20px;
+  border: 2px solid #EFE2D0;
+  cursor: pointer;
+  color: #442222;
+  background-color: #eae2df;
+  border-radius: 15px;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-family: "Saira", sans-serif;
+}
+
+.footer-subscribe button {
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: none;
+  background: #fff;
+  color: #6e5b4b;
+  cursor: pointer;
+}
+
+.footer-social a {
+  margin-left: 20px;
+  font-size: 33px;
+  color: #EFE2D0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #ceb1b1;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #eae2df;
+  margin-bottom: 0px;
+  font-family: "Saira", sans-serif;
+}
+
+.form-error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.sendbut {
+  border-radius: 15px;
+}
+
+.stname {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(64, 34, 34);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.stname input::placeholder {
+  color: rgb(64, 34, 34);
+  font-family: "Saira", sans-serif;
+}
+
+.phone-input input::placeholder {
+  color: rgb(64, 34, 34);
+  font-family: "Saira", sans-serif;
+}
+
+.stname textarea::placeholder {
+  color: rgb(64, 34, 34);
+  font-family: "Saira", sans-serif;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(64, 34, 34);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.country-code {
+  padding: 10px 12px;
+  font-size: 14px;
+  color: rgb(64, 34, 34);
+}
+
+.phone-input input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.Conc {
+  font-size: 35px;
+  color: rgb(64, 34, 34);
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin: 0px 80px;
+  font-family: "Saira", sans-serif;
+}
+
+.footer-image {
+  pointer-events: none;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, #25d366, #1ebe5d);
+  color: #fff;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  z-index: 9999;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.45);
+  animation: whatsappFloat 2s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.15);
+  box-shadow: 0 14px 35px rgba(37, 211, 102, 0.65);
+}
+
+@keyframes whatsappFloat {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 25px 15px;
+    padding: 20px;
+  }
+
+  .Conc {
+    font-size: 35px;
+    color: rgb(64, 34, 34);
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 0px;
+    margin: 0px 20px;
+    font-family: "Saira", sans-serif;
+  }
+
+  .footer-top {
+    display: block;
+  }
+
+  .footer-image img {
+    max-width: 100%;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .footer-form {
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 100%;
+  }
+
+  .footer-form input {
+    padding: 8px;
+  }
+
+  .footer-form button {
+    border-radius: 8px;
+  }
+
+  .footer-bottom {
+    display: block;
+  }
+
+  .footer-logo img {
+    width: 218px;
+    height: 75px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-bott {
+    padding: 30px;
+  }
+
+  .foott {
+    margin-bottom: 20px;
+  }
+
+  .footer-social a {
+    margin-left: 30px;
+  }
+
+  .footer-copy {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .whatsapp-float {
+    right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-copy {
+    font-size: 14px;
+    margin-top: 0;
+  }
+}

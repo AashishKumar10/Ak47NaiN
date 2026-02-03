@@ -1,0 +1,267 @@
+.family-detail {
+  max-width: 1000px;
+  margin: 15px auto 0 auto;
+  padding-bottom: 0px;
+  padding: 20px 20px 0px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.top-heading {
+  text-align: center;
+  color: #442222;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: "Saira", sans-serif;
+}
+
+.family-detail img {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.family-detail h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+  font-family: "Saira", sans-serif;
+  color: #442222;
+  padding-left: 30px;
+}
+
+.family-detail p {
+  font-size: 18px;
+  padding-left: 30px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  font-family: "Saira", sans-serif;
+  color: #442222;
+}
+
+.family-buttons,
+.children {
+  margin-top: 0px;
+}
+
+
+.children button {
+  padding: 8px 18px;
+  margin: 6px 10px 6px 0;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.family-buttons button {
+  padding: 7px 30px;
+  font-size: 18px;
+  margin: 6px 10px 6px 0;
+  background: #442222;
+  color: #fff;
+  margin-left: 30px;
+  border-radius: 9px;
+  cursor: pointer;
+  border: 3px solid #442222;
+  font-family: "Saira", sans-serif;
+}
+
+.family-buttons button:hover {
+  background-color: #eae2df;
+  color: #442222;
+}
+
+.children button:hover {
+  background: #0056b3;
+}
+
+.social-links {
+  display: flex;
+  padding-left: 40px;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+.social-links a .fa-instagram {
+  color: #E1306C;
+}
+
+.social-links a .fa-linkedin {
+  color: #0077B5;
+}
+
+.social-links a .fa-facebook {
+  color: #1877F2;
+}
+
+.social-links a .fa-twitter {
+  color: #1DA1F2;
+}
+
+.social-links a .fa-youtube {
+  color: #FF0000;
+}
+
+.social-links a:hover .fa-instagram {
+  color: #C13584;
+}
+
+.social-links a:hover .fa-linkedin {
+  color: #005582;
+}
+
+.social-links a:hover .fa-facebook {
+  color: #0F5BB5;
+}
+
+.social-links a:hover .fa-twitter {
+  color: #0d95e8;
+}
+
+.social-links a:hover .fa-youtube {
+  color: #cc0000;
+}
+
+.extra-image {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.extra-image img {
+  max-width: 20%;
+  height: 154px;
+  margin-top: -235px;
+  margin-left: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3.bottom-heading {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #442222;
+  font-family: "Saira", sans-serif;
+}
+
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  margin-top: 8px;
+  background: #fff;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  margin-left: 37px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 220px;
+}
+
+.dropdown-item.dorr {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #442222;
+  color: #442222;
+  font-family: "Saira", sans-serif;
+}
+
+.dropdown-item.dorr:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown-item.dorr:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 850px) {
+  .extra-image img {
+    max-width: 20%;
+    height: 154px;
+    margin-top: -235px;
+    margin-left: 300px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 790px) {
+  .extra-image img {
+    max-width: 30%;
+    height: 154px;
+    margin-top: -340px;
+    margin-left: 300px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .extra-image img {
+    max-width: 30%;
+    height: 120px;
+    margin-top: -314px;
+    margin-left: 295px;
+  }
+}
+
+@media (max-width: 499px) {
+  .family-detail img {
+    height: 300px;
+  }
+
+  .family-detail h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .family-detail P {
+    font-size: 22px;
+  }
+
+  .extra-image img {
+    max-width: 30%;
+    height: 100px;
+    margin-top: -125px;
+    margin-left: 270px;
+  }
+
+  .extra-image {
+    margin-top: 0px;
+  }
+
+  .top-heading {
+    font-size: 35px;
+    margin-bottom: 22px;
+  }
+
+}
+
+@media (max-width: 399px) {
+  .family-buttons {
+    margin-left: -20px;
+  }
+
+  .extra-image img {
+    margin-left: 243px;
+  }
+
+  .top-heading {
+    font-size: 30px;
+  }
+
+  h3.bottom-heading {
+    font-size: 25px;
+  }
+}

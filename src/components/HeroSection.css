@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.hero-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 400px;
+  border: 10px solid #442222;
+  border-radius: 25px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-right {
+  text-align: left;
+  padding-left: 70px;
+}
+
+.hero-right h2 {
+  font-family: "Saira", sans-serif;
+  color: rgb(64, 34, 34);
+  font-weight: 500;
+  font-size: 55px;
+  padding-left: 70px;
+}
+
+.hero-right p {
+  font-family: "Saira", sans-serif;
+  color: rgb(64, 34, 34);
+  font-weight: 450;
+  font-size: 22px;
+  padding-left: 70px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.hero-para {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #444;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 35px;
+  font-family: "Saira", sans-serif;
+  margin-top: 20px;
+  font-size: 50px;
+  padding-left: 70px;
+}
+
+.hero-buttons .dirst {
+  color: rgb(64, 34, 34);
+  font-weight: 450;
+  border: 2px solid rgb(64, 34, 34);
+  padding: 5px 30px;
+  border-radius: 17px;
+  font-size: 20PX;
+}
+
+.hero-buttons .dirstt {
+  color: rgb(64, 34, 34);
+  font-weight: 450;
+  border: 2px solid rgb(64, 34, 34);
+  border-radius: 17px;
+  padding: 5px 30px;
+  font-size: 20PX;
+}
+
+.hero-buttons .dirst:hover {
+  background-color: #442222;
+  color: #EFE2D0;
+}
+
+.hero-buttons .dirstt:hover {
+  background-color: #442222;
+  color: #EFE2D0;
+}
+
+.btn.dirst a {
+  text-decoration: none;
+  color: rgb(64, 34, 34);
+}
+
+.btn.dirst a:hover {
+  text-decoration: none;
+  background-color: #442222;
+  color: #EFE2D0;
+}
+
+.btn.dirstt a {
+  text-decoration: none;
+  color: rgb(64, 34, 34);
+}
+
+.btn.dirstt a:hover {
+  text-decoration: none;
+  color: #EFE2D0;
+  background-color: #442222;
+}
+
+.ourfamilly {
+  font-size: 35px;
+  color: rgb(64, 34, 34);
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  font-family: "Saira", sans-serif;
+}
+
+.rrrr {
+  padding-top: 80px;
+  padding: 6px;
+}
+
+.family-slider-box {
+  background: #EFE2D0;
+  border: 10px solid #442222;
+  padding: 30px 10px;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.family-member-link {
+  text-decoration: none;
+  display: block;
+}
+
+.family-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.family-member:hover {
+  transform: scale(1.05);
+}
+
+.circle-frame {
+  width: 250px;
+  height: 250px;
+  border-radius: 15%;
+  border: 5px solid rgb(255, 255, 255);
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+}
+
+.circle-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.family-member p {
+  color: rgb(64, 34, 34);
+  font-size: 20px;
+  margin-bottom: -7px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Saira", sans-serif;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: visible;
+  list-style: none;
+}
+
+.nbn {
+  padding: 0px 6px;
+}
+
+@media (max-width: 1024px) {
+  .circle-frame {
+    width: 220px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 8%;
+  }
+}
+
+@media (max-width: 769px) {
+  .hero-container {
+    margin: 0px;
+    padding: 30px;
+  }
+
+  .hero-container.container.nackground {
+    max-width: 100%;
+  }
+
+  .col-md-6.hero-right {
+    padding: 0px 15px;
+  }
+
+  .ourfamilly {
+    font-size: 35px;
+    color: rgb(64, 34, 34);
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-family: "Saira", sans-serif;
+  }
+
+  .row.align-items-center.rrrr {
+    padding: 0px 5px;
+  }
+
+  .hero-img {
+    height: 500px;
+  }
+
+  .hero-right h2 {
+    padding: 10px 0px;
+    font-size: 39px;
+  }
+
+  .hero-right p {
+    padding: 0px;
+    font-size: 19px;
+  }
+
+  .hero-buttons {
+    display: block;
+    font-family: "Saira", sans-serif;
+    margin-top: -32px;
+    font-size: 40px;
+    padding: 30px 0px;
+  }
+
+  .hero-buttons .dirst {
+    color: rgb(64, 34, 34);
+    font-weight: 450;
+    border: 2px solid rgb(64, 34, 34);
+    padding: 5px 78px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 22PX;
+  }
+
+  .hero-buttons .dirstt {
+    color: rgb(64, 34, 34);
+    font-weight: 450;
+    border: 2px solid rgb(64, 34, 34);
+    border-radius: 10px;
+    padding: 5px 65px;
+    display: block;
+    font-size: 22PX;
+  }
+
+  .circle-frame {
+    border-radius: 8%;
+    margin-bottom: 0;
+    width: 275px;
+  }
+
+  .family-slider-box {
+    padding: 22px 10px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+
+  .family-slider-box {
+    padding: 0 10px;
+  }
+
+  .family-member {
+    transform: scale(0.95);
+  }
+
+  .circle-frame {
+    width: 220px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 8%;
+  }
+
+  .family-member p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 530px) {
+  .circle-frame {
+    width: 190px;
+    height: 180px;
+    margin-top: 15px;
+    border-radius: 8%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .circle-frame {
+    width: 285px;
+    height: 250px;
+    margin-top: -5px;
+  }
+
+  .hero-img {
+    height: 325px;
+  }
+}

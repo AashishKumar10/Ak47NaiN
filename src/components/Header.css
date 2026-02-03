@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.logo {
+  width: 220px;
+  height: 75px;
+  padding: 2px 0px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  position: relative;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(64, 34, 34);
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2.5px;
+
+  background-color: #EFE2D0;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+.headd a {
+  font-family: "Saira", sans-serif;
+  padding: 4px 0px;
+  margin: 0px 19px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.headd ul {
+  padding-left: 0px;
+  list-style: none;
+  margin-bottom: 2PX;
+}
+
+.headd ul li {
+  display: inline-block;
+}
+
+.headd a.hhhj {
+  text-Decoration: none;
+  font-Size: 19px;
+  color: #EFE2D0;
+  font-weight: 500;
+}
+
+.headd a.nav-link.active {
+  text-Decoration: none;
+  font-Size: 19px;
+  color: #EFE2D0;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .headd a.hhhj {
+    color: #442222;
+  }
+
+  .headd a.nav-link.active {
+    color: #442222;
+  }
+
+  .headd a.nav-link:after {
+    background: #442222;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .headd ul li {
+    display: block;
+  }
+
+  .headd ul li a {
+    display: inline-block;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #aca8a8;
+    margin: 4px 0;
+    line-height: 0;
+  }
+
+  .logo {
+    width: 160px;
+    height: 60px;
+    padding: 2px 0px;
+  }
+
+  nav.headd.nav.open {
+    display: block;
+  }
+
+  nav.headd.nav {
+    display: none;
+  }
+
+  .nav {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    flex-direction: column;
+    display: none;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-link {
+    margin: 12px 0;
+  }
+
+  .nav {
+    background-color: #EFE2D0;
+  }
+
+  .headd ul li:hover {
+    background-color: rgba(239, 226, 208, 0.1);
+  }
+
+  .headd ul li {
+    border-bottom: 1px solid #442222;
+  }
+}
